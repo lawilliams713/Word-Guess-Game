@@ -5,7 +5,7 @@ body {
     color: rgb(30, 30, 100);
     font-weight: bold;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 .container { 
     text-align: center;
@@ -19,20 +19,20 @@ h1 {
     
 }
 
- .box1 {
-    margin: auto;
-    width: 400px;
-    height: 500px;
-    border: 2px dashed black;
-    box-sizing: border-box;
-  }
+h2 {
+  padding: 5px;
+  font-size: 50px;
+  font: rgb(30, 30, 100);
+  font-family: 'Dokdo', cursive;
+  font-weight: bold; 
   
-  /* .box2 {
-    margin: 20px 210px 0px 0px;
-    width: 250px;
-    height: 500px;
-    padding: 50px;
-    border: 2px dashed black;
-    box-sizing: border-box;
-    float: right;
-  } */
+}
+
+h3 {
+  padding: 5px;
+  font-size: 25px;
+  font: rgb(30, 30, 100);
+  font-family: Courier New, Courier, monospace;
+  
+  
+}

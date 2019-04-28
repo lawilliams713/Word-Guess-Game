@@ -3,18 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Guess Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Word Guess Game</h1>
+    <div class="container">
+        <h1>Vacation Words</h1>
+        <h2>Word Guess Game</h2>
+        <p>Press any key to get started!</p>
 
-    
 
+        <h3>Wins</h3>
+        <div id="totalWins"></div>
+        <h3>Current Word</h3>
+        <div id="currentWord"></div>
+        <h3>Guesses Remaining</h3>
+        <div id="remainingGuesses"></div>
+        <h3>Letters Guessed</h3>
+        <div id="guessedLetters"></div>
+
+    </div>
+
+    <script  src="http://code.jquery.com/jquery-3.4.0.slim.min.js" integrity="sha256-ZaXnYkHGqIhqTbJ6MB4l9Frs/r7U4jlx7ir8PJYBqbI=" crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
 
 </body>
